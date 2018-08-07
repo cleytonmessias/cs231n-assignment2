@@ -84,8 +84,6 @@ class TwoLayerNet(object):
         ############################################################################
         W1, b1 = self.params['W1'], self.params['b1']
         W2, b2 = self.params['W2'], self.params['b2']
-        N, D = X.shape
-
 
         hidden_1, cache_affine_forward_1 = affine_forward(X, W1, b1)
         hidden_2, cache_relu = relu_forward(hidden_1)
