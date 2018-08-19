@@ -268,7 +268,7 @@ class FullyConnectedNet(object):
         # self.params['b%d' % (i+1)]
 
         scores = X
-        print(mode)
+        
 
         for i in range(1, self.num_layers):
 
